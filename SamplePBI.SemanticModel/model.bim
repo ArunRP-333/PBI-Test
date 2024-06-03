@@ -122,6 +122,12 @@
             "expression": "COUNTROWS(FILTER(MOCK_DATA, MOCK_DATA[gender] = \"Male\"))",
             "formatString": "0",
             "lineageTag": "1134d510-74b8-47e5-9cf5-2060be951768"
+          },
+          {
+            "name": "Count of Female",
+            "expression": "COUNTROWS(FILTER(MOCK_DATA, MOCK_DATA[gender] = \"Female\"))",
+            "formatString": "0",
+            "lineageTag": "203ab7f5-dd94-40fc-9f36-2ff48115deb0"
           }
         ],
         "partitions": [
