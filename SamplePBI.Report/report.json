@@ -27,40 +27,31 @@
       "name": "b57a27dabd1156d0b227",
       "visualContainers": [
         {
-          "config": "{\"name\":\"45abb86e05e452920d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":482.28353948620367,\"y\":162.22264509990487,\"z\":0,\"width\":280.6013320647003,\"height\":280.6013320647003,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Males\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"},\"Name\":\"MOCK_DATA.Count of Males\",\"NativeReferenceName\":\"Count of Males\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Georgia'\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}}}}]}}}",
+          "config": "{\"name\":\"45abb86e05e452920d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":359.11863103249374,\"y\":22.05114401076716,\"z\":0,\"width\":280.3645452797539,\"height\":280.3645452797539,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Males\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"},\"Name\":\"MOCK_DATA.Count of Males\",\"NativeReferenceName\":\"Count of Males\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Georgia'\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}}}}]}}}",
           "filters": "[]",
-          "height": 280.60,
-          "width": 280.60,
-          "x": 482.28,
-          "y": 162.22,
+          "height": 280.36,
+          "width": 280.36,
+          "x": 359.12,
+          "y": 22.05,
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":71,\"width\":300,\"height\":300,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"6be8b48971a234eab818\",\"layouts\":[{\"id\":0,\"position\":{\"x\":36.226879446260334,\"y\":360.69371274754855,\"z\":3001,\"width\":1157.685060565276,\"height\":300.84060757546627,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.email\"},{\"queryRef\":\"MOCK_DATA.first_name\"},{\"queryRef\":\"MOCK_DATA.gender\"},{\"queryRef\":\"Sum(MOCK_DATA.id)\"},{\"queryRef\":\"MOCK_DATA.last_name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA.email\",\"NativeReferenceName\":\"email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"first_name\"},\"Name\":\"MOCK_DATA.first_name\",\"NativeReferenceName\":\"first_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"},\"Name\":\"MOCK_DATA.gender\",\"NativeReferenceName\":\"gender\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"id\"}},\"Function\":0},\"Name\":\"Sum(MOCK_DATA.id)\",\"NativeReferenceName\":\"Sum of id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"last_name\"},\"Name\":\"MOCK_DATA.last_name\",\"NativeReferenceName\":\"last_name\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"}}}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 300.00,
-          "width": 300.00,
-          "x": 150.00,
-          "y": 71.00,
-          "z": 1000.00
-        },
-        {
-          "config": "{\"name\":\"829acb85252da271baea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":68.86075949367088,\"y\":563.0379746835442,\"z\":3000,\"width\":694.6835443037975,\"height\":125.56962025316456,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Karthik DDDD\",\"textStyle\":{\"fontSize\":\"66pt\",\"color\":\"#222422\"}}]}]}}]}}}",
-          "filters": "[]",
-          "height": 125.57,
-          "width": 694.68,
-          "x": 68.86,
-          "y": 563.04,
-          "z": 3000.00
-        },
-        {
-          "config": "{\"name\":\"bced61c0cb80080545b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":71,\"width\":150,\"height\":300,\"z\":3001,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 300.00,
-          "width": 150.00,
-          "x": 0.00,
-          "y": 71.00,
+          "height": 300.84,
+          "width": 1157.69,
+          "x": 36.23,
+          "y": 360.69,
           "z": 3001.00
+        },
+        {
+          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":36.226879446260334,\"y\":11.02557200538358,\"z\":1000,\"width\":300.84060757546627,\"height\":300.84060757546627,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.84,
+          "width": 300.84,
+          "x": 36.23,
+          "y": 11.03,
+          "z": 1000.00
         }
       ],
       "width": 1280.00
