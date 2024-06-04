@@ -52,6 +52,15 @@
           "x": 68.86,
           "y": 563.04,
           "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"bced61c0cb80080545b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":71,\"width\":150,\"height\":300,\"z\":3001,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 150.00,
+          "x": 0.00,
+          "y": 71.00,
+          "z": 3001.00
         }
       ],
       "width": 1280.00
