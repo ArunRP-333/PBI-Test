@@ -36,13 +36,31 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":71,\"width\":300,\"height\":300,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":71,\"width\":300,\"height\":300,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]}}}",
           "filters": "[]",
           "height": 300.00,
           "width": 300.00,
           "x": 150.00,
           "y": 71.00,
-          "z": 1.00
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"8204d4988218eb156773\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.6255534471853,\"y\":244.5034788108792,\"z\":1001,\"width\":299.5572422517394,\"height\":299.5572422517394,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"barChart\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 299.56,
+          "width": 299.56,
+          "x": 911.63,
+          "y": 244.50,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"829acb85252da271baea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":244.5034788108792,\"z\":1002,\"width\":694.6489563567362,\"height\":126.29981024667933,\"tabOrder\":1002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Karthik Raja\",\"textStyle\":{\"fontSize\":\"66pt\",\"color\":\"#222422\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 126.30,
+          "width": 694.65,
+          "x": 0.00,
+          "y": 244.50,
+          "z": 1002.00
         }
       ],
       "width": 1280.00
