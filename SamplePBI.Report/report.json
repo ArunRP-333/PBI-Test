@@ -45,22 +45,22 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"8204d4988218eb156773\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.6255534471853,\"y\":244.5034788108792,\"z\":1001,\"width\":299.5572422517394,\"height\":299.5572422517394,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"barChart\",\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"8204d4988218eb156773\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.6255534471853,\"y\":244.5034788108792,\"z\":2000,\"width\":299.5572422517394,\"height\":299.5572422517394,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 299.56,
           "width": 299.56,
           "x": 911.63,
           "y": 244.50,
-          "z": 1001.00
+          "z": 2000.00
         },
         {
-          "config": "{\"name\":\"829acb85252da271baea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":244.5034788108792,\"z\":1002,\"width\":694.6489563567362,\"height\":126.29981024667933,\"tabOrder\":1002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Karthik Raja\",\"textStyle\":{\"fontSize\":\"66pt\",\"color\":\"#222422\"}}]}]}}]}}}",
+          "config": "{\"name\":\"829acb85252da271baea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":244.5034788108792,\"z\":3000,\"width\":694.6489563567362,\"height\":126.29981024667933,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Karthik Raja\",\"textStyle\":{\"fontSize\":\"66pt\",\"color\":\"#222422\"}}]}]}}]}}}",
           "filters": "[]",
           "height": 126.30,
           "width": 694.65,
           "x": 0.00,
           "y": 244.50,
-          "z": 1002.00
+          "z": 3000.00
         }
       ],
       "width": 1280.00
