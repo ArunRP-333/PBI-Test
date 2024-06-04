@@ -45,15 +45,6 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"8204d4988218eb156773\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.6255534471853,\"y\":244.5034788108792,\"z\":2000,\"width\":299.5572422517394,\"height\":299.5572422517394,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 299.56,
-          "width": 299.56,
-          "x": 911.63,
-          "y": 244.50,
-          "z": 2000.00
-        },
-        {
           "config": "{\"name\":\"829acb85252da271baea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":68.86075949367088,\"y\":563.0379746835442,\"z\":3000,\"width\":694.6835443037975,\"height\":125.56962025316456,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Karthik DDDD\",\"textStyle\":{\"fontSize\":\"66pt\",\"color\":\"#222422\"}}]}]}}]}}}",
           "filters": "[]",
           "height": 125.57,
