@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -28,13 +28,13 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"8916ada0001aec3450bc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":376.70886075949363,\"y\":164.0506329113924,\"z\":1,\"width\":279.49367088607596,\"height\":279.49367088607596,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"I am in Page 2\",\"textStyle\":{\"fontSize\":\"60pt\"}}]}]}}]}}}",
+          "config": "{\"name\":\"8916ada0001aec3450bc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":376.70886075949363,\"y\":164.0506329113924,\"z\":1000,\"width\":279.49367088607596,\"height\":279.49367088607596,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"I am in Page 2\",\"textStyle\":{\"fontSize\":\"60pt\"}}]}]}}]}}}",
           "filters": "[]",
           "height": 279.49,
           "width": 279.49,
           "x": 376.71,
           "y": 164.05,
-          "z": 1.00
+          "z": 1000.00
         },
         {
           "config": "{\"name\":\"93d3fd5b1502ecc5a950\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
@@ -44,6 +44,24 @@
           "x": 10.00,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a707bd46290a9bda0c9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":666.3291139240506,\"y\":0,\"z\":1002,\"width\":279.49367088607596,\"height\":443.54430379746833,\"tabOrder\":1002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hello this is somethig inovative\",\"textStyle\":{\"fontSize\":\"60pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 443.54,
+          "width": 279.49,
+          "x": 666.33,
+          "y": 0.00,
+          "z": 1002.00
+        },
+        {
+          "config": "{\"name\":\"e257b12fa58898a7e317\",\"layouts\":[{\"id\":0,\"position\":{\"x\":377,\"y\":0,\"width\":279,\"height\":164,\"z\":1001,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 164.00,
+          "width": 279.00,
+          "x": 377.00,
+          "y": 0.00,
+          "z": 1001.00
         }
       ],
       "width": 1280.00
@@ -67,22 +85,22 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"519f237abdaccb432c09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":1.6192283364958888,\"z\":2000,\"width\":1280.809614168248,\"height\":374.0417457305503,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(MOCK_DATA.email)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"}},\"Function\":3},\"Name\":\"Min(MOCK_DATA.email)\",\"NativeReferenceName\":\"First email\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"bfeea501c02a4a012d3e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":570,\"width\":280,\"height\":150,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hi Kat\",\"textStyle\":{\"fontSize\":\"60pt\"}}]}]}}]}}}",
           "filters": "[]",
-          "height": 374.04,
-          "width": 1280.81,
-          "x": 0.00,
-          "y": 1.62,
-          "z": 2000.00
+          "height": 150.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 570.00,
+          "z": 2.00
         },
         {
-          "config": "{\"name\":\"9b42edc812ec10b0096c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":375.6609740670462,\"z\":1000,\"width\":1280.809614168248,\"height\":344.8956356736243,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"ec437ee1cea02ae709c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":280,\"height\":280,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 344.90,
-          "width": 1280.81,
-          "x": 0.00,
-          "y": 375.66,
-          "z": 1000.00
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 290.00,
+          "z": 1.00
         }
       ],
       "width": 1280.00
@@ -96,13 +114,13 @@
       "name": "b57a27dabd1156d0b227",
       "visualContainers": [
         {
-          "config": "{\"name\":\"173c0ac33d010ec56729\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1.6192283364958888,\"y\":204.02277039848198,\"z\":8001,\"width\":299.5572422517394,\"height\":301.1764705882353,\"tabOrder\":8001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"173c0ac33d010ec56729\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1.6192283364958888,\"y\":204.02277039848198,\"z\":9000,\"width\":299.5572422517394,\"height\":301.1764705882353,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
           "filters": "[]",
           "height": 301.18,
           "width": 299.56,
           "x": 1.62,
           "y": 204.02,
-          "z": 8001.00
+          "z": 9000.00
         },
         {
           "config": "{\"name\":\"19c3bcda099cb0096064\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.8418722327641,\"y\":419.38013915243516,\"z\":6000,\"width\":299.5572422517394,\"height\":301.1764705882353,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
@@ -159,13 +177,13 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"77167b7d43696c1aaebe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":8002,\"tabOrder\":8002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"HI\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "config": "{\"name\":\"77167b7d43696c1aaebe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":10000,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"HI\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
           "filters": "[]",
           "height": 300.00,
           "width": 300.00,
           "x": 100.00,
           "y": 100.00,
-          "z": 8002.00
+          "z": 10000.00
         },
         {
           "config": "{\"name\":\"7e21bb79c7060723799e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":981.2523719165085,\"y\":419.38013915243516,\"z\":5000,\"width\":299.5572422517394,\"height\":301.1764705882353,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
@@ -207,21 +225,13 @@
       "ordinal": 2,
       "visualContainers": [
         {
-          "config": "{\"name\":\"46399af8dd28b9dda08b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":404.8070841239722,\"z\":2,\"width\":1280.809614168248,\"height\":315.7495256166983}}],\"singleVisual\":{\"visualType\":\"qnaVisual\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
-          "height": 315.75,
-          "width": 1280.81,
-          "x": 0.00,
-          "y": 404.81,
-          "z": 2.00
-        },
-        {
-          "config": "{\"name\":\"664c86a549c28eaccc63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1,\"width\":1280.809614168248,\"height\":404.8070841239722,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Helo Vivek\",\"textStyle\":{\"fontSize\":\"40pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EF0D0D'\"}}}}}}}]}}}",
+          "config": "{\"name\":\"664c86a549c28eaccc63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280.809614168248,\"height\":404.8070841239722,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Helo Vive\",\"textStyle\":{\"fontSize\":\"40pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EF0D0D'\"}}}}}}}]}}}",
           "filters": "[]",
           "height": 404.81,
           "width": 1280.81,
           "x": 0.00,
           "y": 0.00,
-          "z": 1.00
+          "z": 0.00
         }
       ],
       "width": 1280.00
