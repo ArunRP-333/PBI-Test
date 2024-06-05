@@ -20,6 +20,27 @@
   "sections": [
     {
       "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "6cd5f932c920563c956a",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"518cbc4fc5d806203637\",\"layouts\":[{\"id\":0,\"position\":{\"x\":475.9493670886076,\"y\":220.75949367088606,\"z\":0,\"width\":279.49367088607596,\"height\":279.49367088607596,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(MOCK_DATA.email)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"}},\"Function\":3},\"Name\":\"Min(MOCK_DATA.email)\",\"NativeReferenceName\":\"First email\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.49,
+          "width": 279.49,
+          "x": 475.95,
+          "y": 220.76,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
       "displayName": "Page 1",
       "displayOption": 1,
       "filters": "[]",
@@ -36,8 +57,7 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"6be8b48971a234eab818\",\"layouts\":[{\"id\":0,\"position\":{\"x\":95.53447185325743,\"y\":58.292220113852,\"z\":3001,\"width\":1157.7482605945604,\"height\":301.1764705882353,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(MOCK_DATA.id)\"},{\"queryRef\":\"MOCK_DATA.email\"},{\"queryRef\":\"MOCK_DATA.gender\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"id\"}},\"Function\":0},\"Name\":\"Sum(MOCK_DATA.id)\",\"NativeReferenceName\":\"Sum of id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA.email\",\"NativeReferenceName\":\"email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"},\"Name\":\"MOCK_DATA.gender\",\"NativeReferenceName\":\"gender\"}]},\"drillFilterOtherVisuals\":true}}",
-          "config": "{\"name\":\"6be8b48971a234eab818\",\"layouts\":[{\"id\":0,\"position\":{\"x\":95.53447185325743,\"y\":58.292220113852,\"z\":3001,\"width\":1157.7482605945604,\"height\":301.1764705882353,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.email\"},{\"queryRef\":\"MOCK_DATA.gender\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA.email\",\"NativeReferenceName\":\"email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"},\"Name\":\"MOCK_DATA.gender\",\"NativeReferenceName\":\"gender\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"6be8b48971a234eab818\",\"layouts\":[{\"id\":0,\"position\":{\"x\":95.53447185325743,\"y\":58.292220113852,\"z\":3001,\"width\":1157.7482605945604,\"height\":301.1764705882353,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.email\"},{\"queryRef\":\"MOCK_DATA.gender\"},{\"queryRef\":\"MOCK_DATA.last_name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA.email\",\"NativeReferenceName\":\"email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"},\"Name\":\"MOCK_DATA.gender\",\"NativeReferenceName\":\"gender\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"last_name\"},\"Name\":\"MOCK_DATA.last_name\",\"NativeReferenceName\":\"last_name\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 301.18,
           "width": 1157.75,
@@ -46,12 +66,12 @@
           "z": 3001.00
         },
         {
-          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":979.6331435800126,\"y\":359.4686907020873,\"z\":1000,\"width\":301.1764705882353,\"height\":301.1764705882353,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":831.6431455489329,\"y\":359.11863103249374,\"z\":1000,\"width\":300.84060757546627,\"height\":300.84060757546627,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]}}}",
           "filters": "[]",
-          "height": 301.18,
-          "width": 301.18,
-          "x": 979.63,
-          "y": 359.47,
+          "height": 300.84,
+          "width": 300.84,
+          "x": 831.64,
+          "y": 359.12,
           "z": 1000.00
         }
       ],
