@@ -48,30 +48,30 @@
       "name": "b57a27dabd1156d0b227",
       "visualContainers": [
         {
-          "config": "{\"name\":\"45abb86e05e452920d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":21.049968374446554,\"y\":359.4686907020873,\"z\":0,\"width\":280.12650221378874,\"height\":280.12650221378874,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Males\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"},\"Name\":\"MOCK_DATA.Count of Males\",\"NativeReferenceName\":\"Count of Males\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Symbol'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"51D\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"2144013a31765d090a00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150.58823529411765,\"y\":72.865275142315,\"z\":1001,\"width\":142.4920936116382,\"height\":95.53447185325743,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hi Arun\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1A1A'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 95.53,
+          "width": 142.49,
+          "x": 150.59,
+          "y": 72.87,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"45abb86e05e452920d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":275.26881720430106,\"y\":204.02277039848198,\"z\":0,\"width\":280.12650221378874,\"height\":280.12650221378874,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Males\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"},\"Name\":\"MOCK_DATA.Count of Males\",\"NativeReferenceName\":\"Count of Males\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Symbol'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"51D\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}}}}]}}}",
           "filters": "[]",
           "height": 280.13,
           "width": 280.13,
-          "x": 21.05,
-          "y": 359.47,
+          "x": 275.27,
+          "y": 204.02,
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"6be8b48971a234eab818\",\"layouts\":[{\"id\":0,\"position\":{\"x\":95.53447185325743,\"y\":58.292220113852,\"z\":3001,\"width\":1157.7482605945604,\"height\":301.1764705882353,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.gender\"},{\"queryRef\":\"Sum(MOCK_DATA.id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"},\"Name\":\"MOCK_DATA.gender\",\"NativeReferenceName\":\"gender\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"id\"}},\"Function\":0},\"Name\":\"Sum(MOCK_DATA.id)\",\"NativeReferenceName\":\"Sum of id\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":715.6989247311828,\"y\":204.02277039848198,\"z\":1000,\"width\":299.5572422517394,\"height\":301.1764705882353,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]}}}",
           "filters": "[]",
           "height": 301.18,
-          "width": 1157.75,
-          "x": 95.53,
-          "y": 58.29,
-          "z": 3001.00
-        },
-        {
-          "config": "{\"name\":\"7212f301777117c9274d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":831.6431455489329,\"y\":359.11863103249374,\"z\":1000,\"width\":300.84060757546627,\"height\":300.84060757546627,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"},\"Name\":\"MOCK_DATA.Count of Female\",\"NativeReferenceName\":\"Count of Female\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}]}}}",
-          "filters": "[]",
-          "height": 300.84,
-          "width": 300.84,
-          "x": 831.64,
-          "y": 359.12,
+          "width": 299.56,
+          "x": 715.70,
+          "y": 204.02,
           "z": 1000.00
         }
       ],
