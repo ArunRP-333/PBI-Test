@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -41,6 +41,45 @@
     },
     {
       "config": "{}",
+      "displayName": "Page 4",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "911e116b730e60561927",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"336a5387b67080319cce\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"519f237abdaccb432c09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":733.1645569620252,\"y\":101.26582278481013,\"z\":2,\"width\":279.49367088607596,\"height\":279.49367088607596,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(MOCK_DATA.email)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"}},\"Function\":3},\"Name\":\"Min(MOCK_DATA.email)\",\"NativeReferenceName\":\"First email\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.49,
+          "width": 279.49,
+          "x": 733.16,
+          "y": 101.27,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"9b42edc812ec10b0096c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":360.50632911392404,\"y\":301.77215189873414,\"z\":1,\"width\":279.49367088607596,\"height\":279.49367088607596,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii\",\"textStyle\":{\"fontSize\":\"66pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 279.49,
+          "width": 279.49,
+          "x": 360.51,
+          "y": 301.77,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
       "displayName": "Page 1",
       "displayOption": 1,
       "filters": "[]",
@@ -48,13 +87,13 @@
       "name": "b57a27dabd1156d0b227",
       "visualContainers": [
         {
-          "config": "{\"name\":\"2144013a31765d090a00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150.58823529411765,\"y\":72.865275142315,\"z\":1001,\"width\":142.4920936116382,\"height\":95.53447185325743,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hi Arun\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1A1A'\"}}}}}}}]}}}",
+          "config": "{\"name\":\"2144013a31765d090a00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150.58823529411765,\"y\":72.865275142315,\"z\":2000,\"width\":142.4920936116382,\"height\":95.53447185325743,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Hi Arun\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1A1A'\"}}}}}}}]}}}",
           "filters": "[]",
           "height": 95.53,
           "width": 142.49,
           "x": 150.59,
           "y": 72.87,
-          "z": 1001.00
+          "z": 2000.00
         },
         {
           "config": "{\"name\":\"45abb86e05e452920d72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":275.26881720430106,\"y\":204.02277039848198,\"z\":0,\"width\":280.12650221378874,\"height\":280.12650221378874,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA.Count of Males\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"},\"Name\":\"MOCK_DATA.Count of Males\",\"NativeReferenceName\":\"Count of Males\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Count of Males\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Symbol'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"51D\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}}}}]}}}",
@@ -87,13 +126,13 @@
       "ordinal": 2,
       "visualContainers": [
         {
-          "config": "{\"name\":\"af682857884b1d88002b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":411.09632762930204,\"y\":291.3901172851375,\"z\":0,\"width\":280.3645452797539,\"height\":280.3645452797539,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(MOCK_DATA.gender)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"gender\"}},\"Function\":3},\"Name\":\"Min(MOCK_DATA.gender)\",\"NativeReferenceName\":\"First gender\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"664c86a549c28eaccc63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":490.126582278481,\"y\":249.1139240506329,\"z\":1,\"width\":299.746835443038,\"height\":155.9493670886076,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Helo Vivek\",\"textStyle\":{\"fontSize\":\"40pt\"}}]}]}}]}}}",
           "filters": "[]",
-          "height": 280.36,
-          "width": 280.36,
-          "x": 411.10,
-          "y": 291.39,
-          "z": 0.00
+          "height": 155.95,
+          "width": 299.75,
+          "x": 490.13,
+          "y": 249.11,
+          "z": 1.00
         }
       ],
       "width": 1280.00
